@@ -3796,10 +3796,25 @@ input, select, textarea {
 
 .map-responsive p
 {
-	
 	left:0;
 	top:0;
 	height:100%;
 	widows: 100%;
 	position: absolute;
+}
+
+/* Button */
+.top-button
+{
+	display: none;
+	position:fixed;
+	width:55px;
+	height:55px;
+	bottom:40px;
+	right:40px;
+	z-index: 99;
+	background-color: #935d8c;
+	border-radius:50px;
+	text-align:center;
+	font-size: large;
 }
